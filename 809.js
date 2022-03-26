@@ -34,6 +34,8 @@ app.post("/VSP/V3/PlayVOD",function(req,res){
     },
 	//下面这个你们自己改
     "playURL": "http://211.94.219.168:18080/68/16/20200522/268450204/index.m3u8?rrsip=211.94.219.168:18080&zoneoffset=0&servicetype=0&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%2C10000000000041%2C121.25.67.1%2C20220323221750%2C1571729558144191%2Ca03007316b0783fc8b82661561090526623284%2C0.0%2C1%2C0%2C%2C%2C1%2C84001002%2C%2C%2C1%2C1%2C270622%2CEND&GuardEncType=2"
+       //比如
+ // "playURL": "http://211.94.219.168:8080?rrsip=211.94.219.168"
 }
     res.send(result);
 });
